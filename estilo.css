@@ -1,0 +1,137 @@
+body{
+    margin: 0;
+    background: black;
+    font-family: monospace;
+}
+
+.header{
+    border-bottom: 3px solid aqua;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex; 
+}
+
+.header .container {
+    justify-content: space-between;
+}
+
+.header ul .aqui {
+    color: rgb(148, 112, 216);
+}
+
+ul {
+    color: aqua;
+}
+
+.titulo{
+    color: aqua;
+    width: fit-content;
+}
+
+.navBar{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    padding: 0;
+    align-items: center;
+}
+
+.banner {
+    background-image: url("Aula_HTML_CSS/imgs/bg-jelly-fish-para-home.png");
+    height: 500px;
+    color: white;
+    display: flex;
+}
+
+.banner .container p span{
+    font-weight: 1000;
+}
+
+.banner .container {
+    justify-content: center;
+    font-size: 36px;    
+}
+
+.banner .container p {
+    width: 10%;
+}
+
+.social {
+    background-color: beige;
+    display: flex;
+}
+
+.social .container .boxes {
+    display: flex;
+}
+
+.social .container .boxes .box img {
+    width: 100px;
+}
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    background-color: aqua;
+    height: 50px;
+    color: white;
+    display: flex;
+    font-size: 10px;
+}
+
+.footer .container {
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: aqua;
+}
+
+.banner .container .card {
+    background-color: beige;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(148, 112, 216);
+    align-items: center;
+    border-radius: 10px;
+}
+
+.card h1 {
+    font-size: 30px;
+}
+
+.card h4 {
+    font-size: 19px;
+}
+
+.card input {
+    border: rgb(148, 112, 216) solid 2px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 15px;
+}
+
+.card button {
+    background-color: rgb(148, 112, 216);
+    margin-top: 25px;
+    height: 30px;
+    width: 80px;
+    font: 100 15px monospace;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+    color: beige;
+}
